@@ -1,0 +1,75 @@
+/* FONTS */
+
+/* BROTHER REGULAR */
+@font-face {
+  font-family: "BrotherRegular";
+  src: url("../fonts/Brother1816-Regular.woff2") format("woff2");
+}
+/* BROTHER BOLD */
+@font-face {
+  font-family: "BrotherBold";
+  src: url("../fonts/Brother1816-ExtraBold.woff2") format("woff2");
+}
+
+body {
+  background-color: #596e6e;
+  padding: 50px;
+  font-family: "BrotherRegular";
+}
+
+/* CONTAINER */
+#container {
+  width: 90%;
+  max-width: 1440px;
+}
+/* NAV */
+nav {
+    
+  box-sizing: border-box;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #DFE0DA;
+}
+/* ENLACES DEL NAV */
+
+.lo{
+    list-style: none;
+    justify-content: start;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.enlacesArriba {
+  padding-right: 20px;
+  list-style: none;
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+.subscribe{
+    
+    border: 2px solid black;
+  padding: 10px 20px 10px 20px;
+  
+  
+
+}
+
+
+header{
+    background: url(../imagenes/desktop/portada.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 1000px;
+}
