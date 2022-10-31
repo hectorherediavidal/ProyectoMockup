@@ -31,7 +31,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #DFE0DA;
+  background: rgb(227,228,222);
+    background: linear-gradient(90deg, rgba(227,228,222,1) 0%, rgba(217,222,216,1) 35%);
 }
 /* ENLACES DEL NAV */
 
@@ -67,9 +68,88 @@ nav {
 
 
 header{
-    background: url(/imagenes/desktop/portada.webp);
+    background: url(../imagenes/desktop/portada.webp);
     background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
+    background-size: cover;  
     height: 1000px;
+    
+    
+    
+   
+   
+}
+
+.lombok{
+    position: absolute;
+    top: 32%;
+    left: 35%;
+    font-size: 100px;
+}
+
+
+.holistic{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    font-size: 30px;
+    
+}
+
+
+
+.latest{
+    text-align: center;
+    padding-top: 100px;
+    background-color:rgb(227,228,222);
+    background: linear-gradient(90deg, rgba(227,228,222,1) 0%, rgba(217,222,216,1) 35%);
+    width: 100%;
+}
+
+
+
+/* ESTILOS DE LAS 3 IMAGENES S Y SUS RESPECTIVOS TEXTOS */
+.imagenes{
+    
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+
+
+.imagen1{
+    height: 450px;
+    background-color: white;
+  box-shadow: 3px 5px 5px #888888;
+}
+
+
+.textoImagen1{
+    margin-top: 25%;
+    
+}
+
+.imagen2{
+    height: 450px;
+    background-color: white;
+    box-shadow: 3px 5px 5px #888888;
+}
+
+
+.textoImagen2{
+    margin-top: 25%;
+    
+}
+
+.imagen3{
+    height: 450px;
+    background-color: white;
+     box-shadow: 3px 5px 5px #888888;
+}
+
+
+.textoImagen3{
+    margin-top: 25%;
+    
 }
