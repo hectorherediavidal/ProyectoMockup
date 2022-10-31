@@ -103,6 +103,7 @@ header{
     background-color:rgb(227,228,222);
     background: linear-gradient(90deg, rgba(227,228,222,1) 0%, rgba(217,222,216,1) 35%);
     width: 100%;
+    
 }
 
 
@@ -152,4 +153,35 @@ header{
 .textoImagen3{
     margin-top: 25%;
     
+}
+
+
+/* CUADRADOS ABAJO DE LAS 3 IMAGENES */
+
+.cuadradoDoble{
+width: 100%;
+display:flex;
+padding-top: 200px;
+
+}
+
+
+.imagen4{
+    width: 50%;
+    background: url(../imagenes/desktop/planta4.webp);
+    background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+
+.textoAbout{
+    width: 50%;
+    background-color: white;
+}
+
+.textoAbajoAbout{
+    margin: 18%;
+    text-align: justify;
+    vertical-align: middle;
 }
