@@ -222,11 +222,9 @@ padding-top: 200px;
 }
 
 .textoAbajoAbout{
-    
-    margin-top: 13%;
-    margin-left: 14%;
-    margin-bottom: 13%;
-    margin-right: 13%;
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
     text-align: justify;
     vertical-align: middle;
 }
