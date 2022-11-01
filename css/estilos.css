@@ -69,6 +69,8 @@ nav {
 /* ESTILOS HEADER */
 
 header{
+    display: flex;
+    justify-content: center;
     width: 100%;
     background: url(../imagenes/desktop/portada.webp);
     background-repeat: no-repeat;
@@ -81,45 +83,56 @@ header{
    
 }
 
+
 .lombok{
-    position: absolute;
-    top: 32%;
-    left: 35%;
+    
+    margin-top: 48%;
+    text-align: center;
     font-size: 100px;
 }
 
 
 .holistic{
-    position: absolute;
-    top: 55%;
-    left: 40.50%;
+    
+    margin-top: -10%;
+    text-align: center;
     font-size: 30px;
     
 }
 
 .lineaLombok{
-    width: 25%;
+    width: 15%;
     background-color: black;
     border-top: 0.5px solid;
     border-bottom: 4px solid;
     border-left: 4px solid;
     border-right: 4px solid;
-    border-radius: 5px;     
-    margin-top: 30px;
+    border-radius: 5px;   
+    margin-top: 25px;  
+    
 }
 
 
 
 .latest{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
+    
     background-color:rgb(227,228,222);
     background: linear-gradient(90deg, rgba(227,228,222,1) 0%, rgba(217,222,216,1) 35%);
     width: 100%;
     
 }
 
-
+.lineaLatest{
+    width: 4%;
+    background-color: black;
+    border-top: 0.5px solid;
+    border-bottom: 4px solid;
+    border-left: 4px solid;
+    border-right: 4px solid;
+    border-radius: 5px;
+}
 
 /* ESTILOS DE LAS 3 IMAGENES S Y SUS RESPECTIVOS TEXTOS */
 .imagenes{
@@ -169,7 +182,7 @@ header{
 }
 
 
-/* CUADRADOS ABAJO DE LAS 3 IMAGENES */
+/* CUADRADOS DOBLE CON IMAGEN Y TEXTO A LA DERECHA */
 
 .cuadradoDoble{
 width: 100%;
@@ -197,13 +210,23 @@ padding-top: 200px;
     border-radius: 5px;
 }
 
+.tituloAbout{
+    margin-top: 80px;
+}
+
+
 .textoAbout{
     width: 50%;
     background-color: white;
+    
 }
 
 .textoAbajoAbout{
-    margin: 18%;
+    
+    margin-top: 13%;
+    margin-left: 14%;
+    margin-bottom: 13%;
+    margin-right: 13%;
     text-align: justify;
     vertical-align: middle;
 }
