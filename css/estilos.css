@@ -11,6 +11,7 @@
   src: url("../fonts/Brother1816-ExtraBold.woff2") format("woff2");
 }
 
+/* BODY */
 body {
   background-color: #596e6e;
   padding: 50px;
@@ -24,26 +25,27 @@ body {
 }
 /* NAV */
 nav {
-    
   box-sizing: border-box;
   padding-right: 10px;
   padding-left: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgb(227,228,222);
-    background: linear-gradient(90deg, rgba(227,228,222,1) 0%, rgba(217,222,216,1) 35%);
+  background: rgb(227, 228, 222);
+  background: linear-gradient(
+    90deg,
+    rgba(227, 228, 222, 1) 0%,
+    rgba(217, 222, 216, 1) 35%
+  );
 }
 /* ENLACES DEL NAV */
 
-.lo{
-    list-style: none;
-    justify-content: start;
-    font-size: 30px;
-    font-weight: bold;
+.lo {
+  list-style: none;
+  justify-content: start;
+  font-size: 30px;
+  font-weight: bold;
 }
-
-
 
 .enlacesArriba {
   padding-right: 20px;
@@ -54,222 +56,247 @@ nav {
   align-items: center;
 }
 
-
-
-
-.subscribe{
-    
-    border: 2px solid black;
+.subscribe {
+  border: 2px solid black;
   padding: 10px 20px 10px 20px;
-  
-  
-
 }
 
 /* ESTILOS HEADER */
 
-header{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background: url(../imagenes/desktop/portada.webp);
-    background-repeat: no-repeat;
-    background-size: cover;  
-    height: 1000px;
-    
-    
-    
-   
-   
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: url(../imagenes/desktop/portada.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
 }
 
-
-.lombok{
-    
-    margin-top: 48%;
-    text-align: center;
-    font-size: 100px;
+.lombok {
+  margin-top: 48%;
+  text-align: center;
+  font-size: 100px;
 }
 
-
-.holistic{
-    
-    margin-top: -10%;
-    text-align: center;
-    font-size: 30px;
-    
+.holistic {
+  margin-top: -10%;
+  text-align: center;
+  font-size: 30px;
 }
 
-.lineaLombok{
-    width: 15%;
-    background-color: black;
-    border-top: 0.5px solid;
-    border-bottom: 4px solid;
-    border-left: 4px solid;
-    border-right: 4px solid;
-    border-radius: 5px;   
-    margin-top: 25px;  
-    
+.lineaLombok {
+  width: 15%;
+  background-color: black;
+  border-top: 0.5px solid;
+  border-bottom: 4px solid;
+  border-left: 4px solid;
+  border-right: 4px solid;
+  border-radius: 5px;
+  margin-top: 25px;
 }
 
+/* ESTILOS DEL APARTADO LATEST ARTICLES */
+.latest {
+  text-align: center;
+  padding-top: 80px;
 
-
-.latest{
-    text-align: center;
-    padding-top: 80px;
-    
-    background-color:rgb(227,228,222);
-    background: linear-gradient(90deg, rgba(227,228,222,1) 0%, rgba(217,222,216,1) 35%);
-    width: 100%;
-    
+  background-color: rgb(227, 228, 222);
+  background: linear-gradient(
+    90deg,
+    rgba(227, 228, 222, 1) 0%,
+    rgba(217, 222, 216, 1) 35%
+  );
+  width: 100%;
 }
 
-.lineaLatest{
-    width: 4%;
-    background-color: black;
-    border-top: 0.5px solid;
-    border-bottom: 4px solid;
-    border-left: 4px solid;
-    border-right: 4px solid;
-    border-radius: 5px;
+.lineaLatest {
+  width: 4%;
+  background-color: black;
+  border-top: 0.5px solid;
+  border-bottom: 4px solid;
+  border-left: 4px solid;
+  border-right: 4px solid;
+  border-radius: 5px;
 }
 
-/* ESTILOS DE LAS 3 IMAGENES S Y SUS RESPECTIVOS TEXTOS */
-.imagenes{
-    
-    display: flex;
-    justify-content: space-around;
-    
-    
-
+/* ESTILOS DE LAS 3 IMAGENES Y SUS RESPECTIVOS TEXTOS */
+.imagenes {
+  display: flex;
+  justify-content: space-around;
 }
 
-
-.imagen1{
-    height: 450px;
-    background-color: white;
+/* Imagen izquierda */
+.imagen1 {
+  height: 450px;
+  background-color: white;
   box-shadow: 3px 5px 5px #888888;
 }
 
-
-.textoImagen1{
-    margin-top: 25%;
-    
+.lineaImagen1 {
+  width: 8%;
+  background-color: black;
+  border-top: 0.5px solid;
+  border-bottom: 4px solid;
+  border-left: 4px solid;
+  border-right: 4px solid;
+  border-radius: 5px;
 }
 
-.imagen2{
-    height: 450px;
-    background-color: white;
-    box-shadow: 3px 5px 5px #888888;
+.textoImagen1 {
+  margin-top: 15%;
 }
 
-
-.textoImagen2{
-    margin-top: 25%;
-    
+/* IMAGEN CENTRO */
+.imagen2 {
+  height: 450px;
+  background-color: white;
+  box-shadow: 3px 5px 5px #888888;
 }
 
-.imagen3{
-    height: 450px;
-    background-color: white;
-     box-shadow: 3px 5px 5px #888888;
+.lineaImagen2 {
+  width: 8%;
+  background-color: black;
+  border-top: 0.5px solid;
+  border-bottom: 4px solid;
+  border-left: 4px solid;
+  border-right: 4px solid;
+  border-radius: 5px;
 }
 
-
-.textoImagen3{
-    margin-top: 25%;
-    
+.textoImagen2 {
+  margin-top: 15.1%;
+}
+/* IMAGEN DERECHA */
+.imagen3 {
+  height: 450px;
+  background-color: white;
+  box-shadow: 3px 5px 5px #888888;
 }
 
+.lineaImagen3 {
+  width: 8%;
+  background-color: black;
+  border-top: 0.5px solid;
+  border-bottom: 4px solid;
+  border-left: 4px solid;
+  border-right: 4px solid;
+  border-radius: 5px;
+}
+
+.textoImagen3 {
+  margin-top: 15%;
+}
 
 /* CUADRADOS DOBLE CON IMAGEN Y TEXTO A LA DERECHA */
 
-.cuadradoDoble{
-width: 100%;
-display:flex;
-padding-top: 200px;
-
+.cuadradoDoble {
+  width: 100%;
+  display: flex;
+  padding-top: 200px;
 }
 
-
-.imagen4{
-    width: 50%;
-    background: url(../imagenes/desktop/planta4.webp);
-    background-repeat: no-repeat;
+.imagen4 {
+  width: 50%;
+  background: url(../imagenes/desktop/planta4.webp);
+  background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
 }
 
-.lineaAbout{
-    width: 6%;
-    background-color: black;
-    border-top: 0.5px solid;
-    border-bottom: 4px solid;
-    border-left: 4px solid;
-    border-right: 4px solid;
-    border-radius: 5px;
+/* ABOUT */
+.lineaAbout {
+  width: 6%;
+  background-color: black;
+  border-top: 0.5px solid;
+  border-bottom: 4px solid;
+  border-left: 4px solid;
+  border-right: 4px solid;
+  border-radius: 5px;
 }
 
-.tituloAbout{
-    margin-top: 80px;
+.tituloAbout {
+  margin-top: 80px;
 }
 
-
-.textoAbout{
-    width: 50%;
-    background-color: white;
-    
+.textoAbout {
+  width: 50%;
+  background-color: white;
 }
 
-.textoAbajoAbout{
-    display: flex;
-    margin-top: 90px;
-    justify-content: center;
-    text-align: justify;
-    vertical-align: middle;
+.textoAbajoAbout {
+  display: flex;
+  margin-top: 90px;
+  justify-content: center;
+  text-align: justify;
+  vertical-align: middle;
 }
-
-
 
 /* ESTILOS DEL SIGN UP */
 
-.signUp{
-    background-color: #D7DBD6;
-    padding-top: 100px;
-    padding-bottom: 150px;
+.signUp {
+  background-color: #d7dbd6;
+  padding-top: 100px;
+  padding-bottom: 150px;
 }
 
-.barraMail{
-    width: 35%;
-    padding: 20px 20px;
-    border:none
+.barraMail {
+  width: 35%;
+  padding: 20px 20px;
+  border: none;
 }
 
-
-.enviar{
-    border: 2px solid black;
+.enviar {
+  border: 2px solid black;
   padding: 10px 20px 10px 20px;
 }
 
+/* ESTILOS FOOTER */
 
-/* ESTILOD FOOTER */
-
-footer{
-    background-color: white;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    
-    
+footer {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.iconos{
-    display: flex;
-    align-items: flex-start;
-   
-    
+/* ICONOS */
+.iconos {
+  display: flex;
+  align-items: flex-start;
 }
 
-.facebook, .twitter, .instagram, .pinterest{
-    margin: 10px;
+.facebook,
+.twitter,
+.instagram,
+.pinterest {
+  margin-left: 30px;
 }
 
+/* REPETICION DEL NAV */
+.enlacesAbajo {
+  padding-right: 20px;
+  list-style: none;
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutAbajo {
+  margin-right: 90px;
+  font-size: 14px;
+}
+
+.articlesAbajo {
+  margin-right: 90px;
+  font-size: 14px;
+}
+
+.subscribeAbajo {
+  margin-right: 15px;
+  font-size: 14px;
+}

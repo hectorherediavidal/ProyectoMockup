@@ -23,28 +23,39 @@
           <li class="subscribe">SUBSCRIBE</li>
         </ul>
       </nav>
-
+      <!-- HEADER -->
       <header>
         <div class="texto">
           <h1 class="lombok">LOMBOK</h1>
-          <h3 class="holistic">HOLISTIC HEALTH <br><hr class="lineaLombok"></h3>
-          
+          <h3 class="holistic">
+            HOLISTIC HEALTH <br />
+            <hr class="lineaLombok" />
+          </h3>
         </div>
       </header>
 
       <!-- LATEST ARTICLE -->
       <section class="latest">
         <h1>LATEST ARTICLES</h1>
-        <hr class="lineaLatest"><br>
+        <hr class="lineaLatest" />
+        <br />
         <!-- IMAGENES DE LATEST ARTICLE -->
         <section class="imagenes">
           <!-- IMAGEN 1 -->
           <section class="imagen1">
             <picture>
-              <source srcset="imagenes/desktop/planta1.webp" />
+              <source
+                srcset="
+                  imagenes/desktop/planta1.webp,
+                  imagenes/desktop/planta1@2x.webp
+                "
+              />
 
               <img src="" alt="primera foto de las tres plantas" />
+              <!-- TEXTO IMAGEN 1 -->
               <figcaption class="textoImagen1">
+                <hr class="lineaImagen1" />
+                <br />
                 How to use mindfullness<br />
                 in your everyday life
               </figcaption>
@@ -53,10 +64,18 @@
           <!-- IMAGEN 2 -->
           <section class="imagen2">
             <picture>
-              <source srcset="imagenes/desktop/planta2.webp" />
+              <source
+                srcset="
+                  imagenes/desktop/planta2.webp,
+                  imagenes/desktop/planta2@2x.webp
+                "
+              />
 
               <img src="" alt="segunda foto de las tres plantas" />
+              <!-- TEXTO IMAGEN 2 -->
               <figcaption class="textoImagen2">
+                <hr class="lineaImagen2" />
+                <br />
                 What are the best walking<br />
                 meditations
               </figcaption>
@@ -65,23 +84,32 @@
           <!-- IMAGEN 3 -->
           <section class="imagen3">
             <picture>
-              <source srcset="imagenes/desktop/planta3.webp" />
+              <source
+                srcset="
+                  imagenes/desktop/planta3.webp,
+                  imagenes/desktop/planta3@2x.webp
+                "
+              />
 
               <img src="" alt="tercera foto de las tres plantas" />
+              <!-- TEXTO IMAGEN 3 -->
               <figcaption class="textoImagen3">
+                <hr class="lineaImagen3" />
+                <br />
                 How to go deep into<br />
                 the mind of hope
               </figcaption>
             </picture>
           </section>
         </section>
-<!-- SECTION CON FOTO Y TEXTO A LA DERECHA -->
+        <!-- SECTION CON FOTO Y TEXTO A LA DERECHA -->
+        <!-- IMAGEN 4 -->
         <section class="cuadradoDoble">
           <section class="imagen4"></section>
-<!-- IMAGEN 4 -->
+          <!-- TEXTO DERECHA -->
           <section class="textoAbout">
             <h1 class="tituloAbout">ABOUT</h1>
-            <hr class="lineaAbout">
+            <hr class="lineaAbout" />
 
             <p class="textoAbajoAbout">
               Since 1993 we have roamed is a blog from the earliest years.<br /><br />
@@ -94,23 +122,55 @@
             </p>
           </section>
         </section>
-
+        <!-- APARTADO SUBSCRIBE -->
         <section class="signUp">
           <h1 class="subscribeSignUp">SUBSCRIBE</h1>
           <h3 class="textoSignUp">Sign-up to our newsletter</h3>
-          <input type="text" class="barraMail" placeholder="Your email" /><br><br><br>
-          <input type="submit" class="enviar" value="SUBMIT"/>
+          <!-- MAIL -->
+          <input
+            type="text"
+            class="barraMail"
+            placeholder="Your email"
+          /><br /><br /><br />
+          <!-- BOTON ENVIAR -->
+          <input type="submit" class="enviar" value="SUBMIT" />
         </section>
-
-
-
+        <!-- FOOTER -->
         <footer>
-            <section class="iconos">
-            <img src="./imagenes/desktop/facebook.svg" alt="facebook" class="facebook">
-            <img src="./imagenes/desktop/instagram.svg" alt="instagram" class="instagram">
-            <img src="./imagenes/desktop/pinterest.svg" alt="pinterest" class="pinterest">
-            <img src="./imagenes/desktop/twitter.svg" alt="twitter" class="twitter">
-            </section>
+          <section class="iconos">
+            <!-- FACEBOOK -->
+            <img
+              src="./imagenes/desktop/facebook.svg"
+              alt="facebook"
+              class="facebook"
+            />
+            <!-- INSTAGRAM -->
+            <img
+              src="./imagenes/desktop/instagram.svg"
+              alt="instagram"
+              class="instagram"
+            />
+            <!-- PINTEREST -->
+            <img
+              src="./imagenes/desktop/pinterest.svg"
+              alt="pinterest"
+              class="pinterest"
+            />
+            <!-- TWITTER -->
+            <img
+              src="./imagenes/desktop/twitter.svg"
+              alt="twitter"
+              class="twitter"
+            />
+          </section>
+          <!-- REPETICION DEL NAV -->
+          <section class="navAbajo">
+            <ul class="enlacesAbajo">
+              <li class="aboutAbajo">ABOUT</li>
+              <li class="articlesAbajo">ARTICLES</li>
+              <li class="subscribeAbajo">SUBSCRIBE</li>
+            </ul>
+          </section>
         </footer>
       </section>
     </div>
