@@ -16,6 +16,7 @@ body {
   background-color: #596e6e;
   padding: 50px;
   font-family: "BrotherRegular";
+  letter-spacing: 1px;
 }
 
 /* CONTAINER */
@@ -217,6 +218,7 @@ header {
 
 .tituloAbout {
   margin-top: 80px;
+  
 }
 
 .textoAbout {
