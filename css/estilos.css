@@ -74,21 +74,24 @@ header {
   height: 1000px;
 }
 
+/* TITULO */
 .lombok {
   margin-top: 48%;
   text-align: center;
   font-size: 100px;
+  color: #474c47;
 }
 
 .holistic {
   margin-top: -10%;
   text-align: center;
   font-size: 30px;
+  color: #474c47;
 }
 
 .lineaLombok {
   width: 15%;
-  background-color: black;
+  color: #7b9590;
   border-top: 0.5px solid;
   border-bottom: 4px solid;
   border-left: 4px solid;
@@ -101,7 +104,6 @@ header {
 .latest {
   text-align: center;
   padding-top: 80px;
-
   background-color: rgb(227, 228, 222);
   background: linear-gradient(
     90deg,
@@ -109,11 +111,11 @@ header {
     rgba(217, 222, 216, 1) 35%
   );
   width: 100%;
+  color: #474c47;
 }
 
 .lineaLatest {
   width: 4%;
-  background-color: black;
   border-top: 0.5px solid;
   border-bottom: 4px solid;
   border-left: 4px solid;
@@ -218,7 +220,7 @@ header {
 
 .tituloAbout {
   margin-top: 80px;
-  
+  color: #474c47;
 }
 
 .textoAbout {
